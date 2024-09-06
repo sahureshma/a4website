@@ -1,0 +1,81 @@
+.heading{
+  padding-left: 2%;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+.all{
+    margin-top: 0px;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+ .program-container{
+   margin-top: 10%;
+   padding-top: 0px;
+ }
+ .datacol-program{
+  text-align: center;
+  align-items: center;
+
+  border: 2px solid rgb(110, 107, 107);
+  border-radius: 30%; /* Adjust the value to change the level of rounding */
+  /* Other styles for your box */
+  width: 400px;
+  height: 400px;
+ }
+ .card-title{
+  text-align: center;
+  padding-left: 3%;
+ }
+ .num{
+  padding-left: 2%;
+  font-size: 2rem;
+ }
+ 
+ .dataprogram-card-image {
+  width: 100px; /* Adjust image size */
+  height: 100px; /* Adjust image size */
+  margin-top: 20%; /* Adjust margin */
+}
+
+ /* Data Component CSS for Mobile View */
+@media only screen and (max-width: 768px) {
+  .program-container {
+    padding: 20px; /* Add padding */
+  }
+
+  .heading {
+    font-size: 24px; /* Adjust font size */
+    text-align: center; /* Center align */
+  }
+
+  .row.program-row {
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center align */
+    width: 100vw;
+  }
+
+  .datacol-program {
+    margin-bottom: 20px; /* Adjust margin */
+    text-align: center; /* Center align */
+  }
+
+  .dataprogram-card-image {
+    width: 100px; /* Adjust image size */
+    height: 100px; /* Adjust image size */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .num {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust margin */
+  }
+
+  p {
+    font-size: 16px; /* Adjust font size */
+  }
+}
+

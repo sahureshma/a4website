@@ -1,0 +1,13 @@
+.servicebtn {
+    background-color: rgb(4, 81, 4);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 11px 1rem;
+    /* margin: 0 0.5rem ; */
+    width: 7.5rem;
+    justify-content: space-between;
+   
+  }
